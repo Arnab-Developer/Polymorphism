@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolymorphismClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Piano">
+            <summary>
+            Class Piano. It is a special type of Instrument class.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Instrument">
+            <summary>
+            Class for instrument.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Instrument.Play">
+            <summary>
+            Abstract method for playing an instrument.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Piano.Play">
+            <summary>
+            Create a piano like sound.
+            </summary>
+            <returns>Piano like sound.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.CollegeStudent">
+            <summary>
+            CollegeStudent class.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.Student">
+            <summary>
+            Student class.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.IStudent">
+            <summary>
+            Interface for student functionality.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.IStudent.Name">
+            <summary>
+            Name of the student.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.IStudent.Age">
+            <summary>
+            Age of the student.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.Student.ToString">
+            <summary>
+            Overriding ToString() method of object class.
+            </summary>
+            <returns>String representation of student object.</returns>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.Student.Name">
+            <summary>
+            Name of the student.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.Student.Age">
+            <summary>
+            Age of the student.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.CollegeStudent.Age">
+            <summary>
+            Age of the college student.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.UseDatabase">
+            <summary>
+            Class UseDatabase.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.UseDatabase.Use(PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.IDatabase)">
+            <summary>
+            Use data base information.
+            </summary>
+            <param name="database">Interface type data base.</param>
+            <returns>String representation of data base information.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.SendMessageToUser">
+            <summary>
+            Class to send message to the user.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.SendMessageToUser.Send(PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.GetMessageForUserDelegate,System.String)">
+            <summary>
+            Send message to user.
+            </summary>
+            <param name="getMessageForUserDelegate">Take input of type GetMessageForUserDelegate</param>
+            <param name="userName">User name.</param>
+            <returns>Result user name with message.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.PlayInstrument">
+            <summary>
+            Class to play an instrument.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.PlayInstrument.StartPlaying(PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Instrument)">
+            <summary>
+            Start playing an instrument.
+            </summary>
+            <param name="instrument">A general input parameter.</param>
+            <returns>Instrument playing sound.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Database">
+            <summary>
+            Class data base and it is an implimantation 
+            of IDatabase interface.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.IDatabase">
+            <summary>
+            Interface for basic data base funtionality contract.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.IDatabase.Name">
+            <summary>
+            Name of the data base.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.IDatabase.CreaterName">
+            <summary>
+            Name of the company who creates the data base.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.IDatabase.IsOpenSource">
+            <summary>
+            The data base is open source or not.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Database.ToString">
+            <summary>
+            Specific implimentation of the ToString() method of 
+            the object class.
+            </summary>
+            <returns>Readable format of all the information.</returns>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Database.Name">
+            <summary>
+            Name of the data base.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Database.CreaterName">
+            <summary>
+            Name of the company who creates the data base.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Database.IsOpenSource">
+            <summary>
+            The data base is open source or not.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.GetMessageForUserDelegate">
+            <summary>
+            Delegate to get message for the user.
+            </summary>
+            <param name="userName">User name.</param>
+            <returns>Result user name with message.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.ByeUser">
+            <summary>
+            Class to say user bye.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.ByeUser.SayHello(System.String)">
+            <summary>
+            Say bye to the user.
+            </summary>
+            <param name="userName">User name.</param>
+            <returns>Bye user name.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.BelowAgeLimitException">
+            <summary>
+            Custom exception class for under age.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.BelowAgeLimitException.#ctor">
+            <summary>
+            Parameter less constructor.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.BelowAgeLimitException.#ctor(System.String)">
+            <summary>
+            Parameterised constructor.
+            </summary>
+            <param name="message">Exception message.</param>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.BelowAgeLimitException.#ctor(System.String,System.Exception)">
+            <summary>
+            Parameterised constructor.
+            </summary>
+            <param name="message">Exception message.</param>
+            <param name="inner">Inner exception.</param>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.BelowAgeLimitException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Parameterised constructor.
+            </summary>
+            <param name="info">Serialization information.</param>
+            <param name="context">Streaming context.</param>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.MySql">
+            <summary>
+            Class my sql and it is an implimantation 
+            of IDatabase interface.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.MySql.#ctor">
+            <summary>
+            Parameter less constructor.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Guiter">
+            <summary>
+            Class Guiter. It is a special type of Instrument class.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.MethodOverriding.Guiter.Play">
+            <summary>
+            Create a guiter like sound.
+            </summary>
+            <returns>Guiter like sound.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.StaticPolymorphism.IndexerOverloading">
+            <summary>
+            Class for indexer overloading.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.IndexerOverloading.#ctor">
+            <summary>
+            Parameter less constructor.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.StaticPolymorphism.IndexerOverloading.Item(System.Int32)">
+            <summary>
+            Indexer to access names.
+            </summary>
+            <param name="index">Index number.</param>
+            <returns>Name in the given index.</returns>
+        </member>
+        <member name="P:PolymorphismClassLibrary.StaticPolymorphism.IndexerOverloading.Item(System.String)">
+            <summary>
+            Indexer to access names.
+            </summary>
+            <param name="position">Position.</param>
+            <returns>Name in the given position.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.EnterToCollege">
+            <summary>
+            Class to get entry to college.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.EnterToCollege.Enter(PolymorphismClassLibrary.DynamicPolymorphism.PropertyOverriding.IStudent)">
+            <summary>
+            Get entry to college.
+            </summary>
+            <param name="student">Student object.</param>
+            <returns>String representation of student object.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading">
+            <summary>
+            Class describing method overloading.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading.Addition(System.Int32,System.Int32)">
+            <summary>
+            int addition.
+            </summary>
+            <param name="x">First input.</param>
+            <param name="y">Second input.</param>
+            <returns>Addition result.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading.Addition(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            int addition.
+            </summary>
+            <param name="x">First input.</param>
+            <param name="y">Second input.</param>
+            <param name="z">Third input.</param>
+            <returns>Addition result.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading.Addition(System.Int32[])">
+            <summary>
+            int addition.
+            </summary>
+            <param name="values">Param type parameter.</param>
+            <returns>Addition result.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading.Addition(System.Double,System.Double)">
+            <summary>
+            double addition.
+            </summary>
+            <param name="x">First input.</param>
+            <param name="y">Second input.</param>
+            <returns>Addition result.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading.Addition(System.Double,System.Double,System.Double)">
+            <summary>
+            double addition.
+            </summary>
+            <param name="x">First input.</param>
+            <param name="y">Second input.</param>
+            <param name="z">Third input.</param>
+            <returns>Addition result.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.MethodOverloading.Addition(System.Double[])">
+            <summary>
+            double addition.
+            </summary>
+            <param name="values">Param type parameter.</param>
+            <returns>Addition result.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Oracle">
+            <summary>
+            Class SqlServer and it is an implimantation 
+            of IDatabase interface.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.Oracle.#ctor">
+            <summary>
+            Parameter less constructor.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.HelloUser">
+            <summary>
+            Class to say user hello.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.DelegatePolymorphism.HelloUser.SayHello(System.String)">
+            <summary>
+            Say hello to the user.
+            </summary>
+            <param name="userName">User name.</param>
+            <returns>Hello user name.</returns>
+        </member>
+        <member name="T:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading">
+            <summary>
+            Class describing operator overloading.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.#ctor">
+            <summary>
+            Parameter less constructor.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.#ctor(System.Double,System.Double)">
+            <summary>
+            Parameterised constructor.
+            </summary>
+            <param name="x">First parameter.</param>
+            <param name="y">Second parameter.</param>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.op_Addition(PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading,PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading)">
+            <summary>
+            Overloading + operator.
+            </summary>
+            <param name="obj1">First object.</param>
+            <param name="obj2">Second object.</param>
+            <returns>Resulting object.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.op_Subtraction(PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading,PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading)">
+            <summary>
+            Overloading - operator.
+            </summary>
+            <param name="obj1">First object.</param>
+            <param name="obj2">Second object.</param>
+            <returns>Resulting object.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.op_Multiply(PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading,PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading)">
+            <summary>
+            Overloading * operator.
+            </summary>
+            <param name="obj1">First object.</param>
+            <param name="obj2">Second object.</param>
+            <returns>Resulting object.</returns>
+        </member>
+        <member name="M:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.op_Division(PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading,PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading)">
+            <summary>
+            Overloading / operator.
+            </summary>
+            <param name="obj1">First object.</param>
+            <param name="obj2">Second object.</param>
+            <returns>Resulting object.</returns>
+        </member>
+        <member name="P:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.X">
+            <summary>
+            X property.
+            </summary>
+        </member>
+        <member name="P:PolymorphismClassLibrary.StaticPolymorphism.OperatorOverloading.Y">
+            <summary>
+            Y property.
+            </summary>
+        </member>
+        <member name="T:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.SqlServer">
+            <summary>
+            Class SqlServer and it is an implimantation 
+            of IDatabase interface.
+            </summary>
+        </member>
+        <member name="M:PolymorphismClassLibrary.DynamicPolymorphism.InterfacePolymorphism.SqlServer.#ctor">
+            <summary>
+            Parameter less constructor.
+            </summary>
+        </member>
+    </members>
+</doc>

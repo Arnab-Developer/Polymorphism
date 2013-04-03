@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolymorphismConsoleApplication</name>
+    </assembly>
+    <members>
+        <member name="T:PolymorphismConsoleApplication.Program">
+            <summary>
+            Class containing starting point of the program 
+            and all the test methods.
+            </summary>
+        </member>
+        <member name="M:PolymorphismConsoleApplication.Program.Main">
+            <summary>
+            Starting point of the program.
+            </summary>
+        </member>
+    </members>
+</doc>

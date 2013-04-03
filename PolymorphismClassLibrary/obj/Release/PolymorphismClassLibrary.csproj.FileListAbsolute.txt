@@ -1,0 +1,6 @@
+C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismClassLibrary\bin\Release\PolymorphismClassLibrary.dll
+C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismClassLibrary\bin\Release\PolymorphismClassLibrary.pdb
+C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismClassLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismClassLibrary\obj\Release\PolymorphismClassLibrary.dll
+C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismClassLibrary\obj\Release\PolymorphismClassLibrary.pdb
+C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismClassLibrary\bin\Release\PolymorphismClassLibrary.xml
