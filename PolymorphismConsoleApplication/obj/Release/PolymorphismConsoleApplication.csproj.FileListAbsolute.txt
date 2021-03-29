@@ -1,9 +1,0 @@
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\bin\Release\PolymorphismConsoleApplication.exe
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\bin\Release\PolymorphismConsoleApplication.pdb
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\bin\Release\PolymorphismClassLibrary.dll
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\bin\Release\PolymorphismClassLibrary.pdb
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\obj\Release\ResolveAssemblyReference.cache
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\obj\Release\PolymorphismConsoleApplication.exe
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\obj\Release\PolymorphismConsoleApplication.pdb
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\bin\Release\PolymorphismClassLibrary.xml
-C:\Documents and Settings\Internet Account\My Documents\Visual Studio 2008\Projects\Polymorphism\PolymorphismConsoleApplication\bin\Release\PolymorphismConsoleApplication.xml
